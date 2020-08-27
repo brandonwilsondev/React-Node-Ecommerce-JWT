@@ -101,6 +101,7 @@ class AdminContainer extends Component {
             </FormGroup>
           </Col>
           <Button onClick={this.onLogin}>Login</Button>
+          <Button onClick={this.onSignup}>Signup</Button>
           <Link to="/dashboard">secret page</Link>
           <p>{errors}</p>
         </Form>

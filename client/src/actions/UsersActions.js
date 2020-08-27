@@ -1,8 +1,9 @@
 import { 
-	USER_ADDRESS
+	USER_ADDRESS,
 } from '../constants.js';
 
 export const addUserAddress = infoUser => ({
 	type: USER_ADDRESS,
 	infoUser	
 });
+
